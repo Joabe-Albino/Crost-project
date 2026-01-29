@@ -1,0 +1,30 @@
+.Footer{
+    background-color: #222;
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+
+.list_socialmidia{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.items svg{
+    margin: 0 1em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.items svg:hover{
+    color: #FFBB33;
+}
+
+.copy{
+    margin-top: 2em;
+}
+
+.copy span{
+    color:#FFBB33;
+}
