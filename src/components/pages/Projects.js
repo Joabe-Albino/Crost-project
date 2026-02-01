@@ -3,8 +3,10 @@ import styles from "./Projects.module.css";
 import Message from "../layout/Message";
 import Container from "../layout/Container";
 import LinkButton from "../layout/LinkButton";
+import ProjectCard from "../project/ProjectCard";
 
 import { useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function Projects() {
   const location = useLocation();
@@ -13,6 +15,24 @@ function Projects() {
     message = location.state.message;
   }
 
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:5000/projects", {
+      method: "GET",
+      headers: {
+        "Content-Type": "Apllication/json",
+      },
+    })
+      .then((resp) => resp.json())
+      .then((data) => {
+        console.log(data);
+        
+        setProjects(data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <div className={styles.projects_container}>
       <div className={styles.title_projects}>
@@ -20,8 +40,17 @@ function Projects() {
         <LinkButton to="/newproject" text="Criar Projeto" />
       </div>
       {message && <Message msg={message} type="success" />}
-      <Container customClass="start">
-        <p>Projetos....</p>
+      <Container customClass="start">   
+        {projects.length > 0 &&
+          projects.map((project) => <ProjectCard 
+          id={project.id}
+          name={project.name}
+          budget={project.budget}
+          category={project.category.name}
+          key={project.id}
+          />
+            
+          )}
       </Container>
     </div>
   );

@@ -21,6 +21,17 @@
       },
       "costs": 0,
       "services": []
+    },
+    {
+      "id": "8bfd",
+      "name": "Meu projeto teste",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "costs": 0,
+      "services": []
     }
   ],
   "categories": [
