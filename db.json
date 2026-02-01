@@ -12,20 +12,20 @@
       "services": []
     },
     {
-      "id": "daaf",
-      "name": "projeto teste 2",
-      "budget": "3000",
+      "id": "d7fa",
+      "name": "Teste 2",
+      "budget": "6000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
       "costs": 0,
       "services": []
     },
     {
-      "id": "8bfd",
-      "name": "Meu projeto teste",
-      "budget": "10000",
+      "id": "08fb",
+      "name": "implantação",
+      "budget": "9000",
       "category": {
         "id": "3",
         "name": "Design"
