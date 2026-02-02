@@ -20,7 +20,15 @@
         "name": "Design"
       },
       "costs": 0,
-      "services": []
+      "services": [
+        {
+          "name": "Teste 2",
+          "cost": "200",
+          "description": "Servuço teste",
+          "id": "87a7c70c-a49e-4e87-9d2d-04b4a1d17af4"
+        }
+      ],
+      "cost": null
     },
     {
       "id": "08fb",
@@ -31,7 +39,15 @@
         "name": "Design"
       },
       "costs": 0,
-      "services": []
+      "services": [
+        {
+          "name": "Dev full",
+          "cost": "300",
+          "description": "Criar algo",
+          "id": "a7e03bbb-9fbb-4cad-9390-7603f627765b"
+        }
+      ],
+      "cost": null
     }
   ],
   "categories": [
