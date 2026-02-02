@@ -8,7 +8,7 @@ function NewProject() {
   const navigate = useNavigate();
 
   function createProject(project) {
-    project.costs = 0;
+    project.cost = parseFloat(0);
     project.services = [];
 
     fetch("http://localhost:5000/projects", {

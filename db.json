@@ -8,8 +8,8 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "costs": 0,
-      "services": []
+      "services": [],
+      "cost": 0
     },
     {
       "id": "d7fa",
@@ -19,16 +19,21 @@
         "id": "3",
         "name": "Design"
       },
-      "costs": 0,
       "services": [
         {
-          "name": "Teste 2",
-          "cost": "200",
-          "description": "Servuço teste",
-          "id": "87a7c70c-a49e-4e87-9d2d-04b4a1d17af4"
+          "name": "implantação",
+          "cost": "600",
+          "description": "Implantar empresa",
+          "id": "c66f17bf-7923-4232-b3f9-feaae65111ae"
+        },
+        {
+          "name": "Scrum master",
+          "cost": "1500",
+          "description": "Vai gerenciar o projeto",
+          "id": "8b694bcf-a02c-48ca-b113-9d680e7f167f"
         }
       ],
-      "cost": null
+      "cost": 2100
     },
     {
       "id": "08fb",
@@ -38,7 +43,6 @@
         "id": "3",
         "name": "Design"
       },
-      "costs": 0,
       "services": [
         {
           "name": "Dev full",
@@ -47,7 +51,18 @@
           "id": "a7e03bbb-9fbb-4cad-9390-7603f627765b"
         }
       ],
-      "cost": null
+      "cost": 500
+    },
+    {
+      "id": "905b",
+      "name": "teste",
+      "budget": "6000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
     }
   ],
   "categories": [
