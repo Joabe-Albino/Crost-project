@@ -2,22 +2,22 @@
   "projects": [
     {
       "id": "1481",
-      "name": "teste",
-      "budget": "500",
+      "name": "teste de mensagem",
+      "budget": "9000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "4",
+        "name": "Planejamento"
       },
       "costs": 0,
       "services": []
     },
     {
       "id": "d7fa",
-      "name": "Teste 2",
-      "budget": "6000",
+      "name": "Teste de atualização",
+      "budget": "7000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "costs": 0,
       "services": []
